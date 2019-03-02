@@ -1,5 +1,5 @@
-#define MONEY_INCLUDE
-#ifndef MONEY_INCLUDE
+#ifndef MONEY_INCLUD
+#define MONEY_INCLUD
 #include "Unit.h"
 #include <iostream>
 class Money : public Unit
