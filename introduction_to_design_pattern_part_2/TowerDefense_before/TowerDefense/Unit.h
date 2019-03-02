@@ -10,10 +10,14 @@ public:
 		TypeMoney,
 		TypeSlower
 	};
+
 	virtual Type getType() = 0;
-	virtual void shoot() = 0;
-	virtual void generateCoins() = 0;
-	virtual void freezeEnenmy() = 0;
+	
+  virtual void shoot() = 0;
+	
+  virtual void generateMoney() = 0;
+	
+  virtual void freezeEnenmy() = 0;
 };
 
 #endif
