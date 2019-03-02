@@ -5,12 +5,12 @@ cmake_minimum_required (VERSION 3.8)
 
 
 set(SRC 
-	TowerDefense.cpp 
-	TowerDefense.h
-	Delay.h 
-	Money.h 
-	Offensive.h 
-	Unit.h
+  TowerDefense.cpp 
+  TowerDefense.h
+  Delay.h 
+  Money.h 
+  Offensive.h 
+  Unit.h
 )
 # Add source to this project's executable.
 add_executable (TowerDefense ${SRC})

@@ -5,21 +5,21 @@
 class Offensive : public Unit
 {
 public:
-	Offensive() = default;
+  Offensive() = default;
 
-	virtual void shoot()
-	{
-		std::cout << "shooting" << std::endl;
-	}
+  virtual void shoot()
+  {
+    std::cout << "shooting" << std::endl;
+  }
 
-	virtual void generateMoney(){}
-	
+  virtual void generateMoney(){}
+  
   virtual void freezeEnenmy(){}
-	
+  
   virtual Type getType()
-	{
-		return Type::TypeGun;
-	}
+  {
+    return Type::TypeGun;
+  }
 };
 
 #endif

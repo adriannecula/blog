@@ -5,21 +5,21 @@
 class Delay : public Unit
 {
 public:
-	Delay() = default;
+  Delay() = default;
 
-	virtual void shoot(){}
+  virtual void shoot(){}
 
-	virtual void generateMoney(){}
+  virtual void generateMoney(){}
 
-	virtual void freezeEnenmy()
-	{
-		std::cout << "slowing down" << std::endl;
-	}
+  virtual void freezeEnenmy()
+  {
+    std::cout << "slowing down" << std::endl;
+  }
 
-	virtual Type getType()
-	{
-		return Type::TypeSlower;
-	}
+  virtual Type getType()
+  {
+    return Type::TypeSlower;
+  }
 };
 
 #endif

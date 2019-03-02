@@ -4,19 +4,19 @@
 class Unit 
 {
 public:
-	enum class Type 
-	{
-		TypeGun,
-		TypeMoney,
-		TypeSlower
-	};
+  enum class Type 
+  {
+    TypeGun,
+    TypeMoney,
+    TypeSlower
+  };
 
-	virtual Type getType() = 0;
-	
+  virtual Type getType() = 0;
+  
   virtual void shoot() = 0;
-	
+  
   virtual void generateMoney() = 0;
-	
+  
   virtual void freezeEnenmy() = 0;
 };
 
