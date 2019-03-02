@@ -1,5 +1,5 @@
-#ifndef GENERATOR_INCLUDE
-#define GENERATOR_INCLUDE
+#define MONEY_INCLUDE
+#ifndef MONEY_INCLUDE
 #include "Unit.h"
 #include <iostream>
 class Money : public Unit

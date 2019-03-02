@@ -1,5 +1,5 @@
-#ifndef DEFENSE_INCLUDE
-#define DEFENSE_INCLUDE
+#ifndef OFFENSIVE_INCLUDE
+#define OFFENSIVE_INCLUDE
 #include "Unit.h"
 #include <iostream>
 class Offensive : public Unit

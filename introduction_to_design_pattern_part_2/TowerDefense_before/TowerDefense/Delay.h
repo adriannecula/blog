@@ -1,5 +1,5 @@
-#ifndef FREEZE_INCLUDE
-#define FREEZE_INCLUDE
+#ifndef DELAY_INCLUDE
+#define DELAY_INCLUDE
 #include "Unit.h"
 #include <iostream>
 class Delay : public Unit
