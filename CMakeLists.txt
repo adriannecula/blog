@@ -1,3 +1,4 @@
 cmake_minimum_required( VERSION 2.6)
 
 add_subdirectory(introduction_to_design_pattern_part_2)
+add_subdirectory(introduction_to_design_pattern_part_3)
