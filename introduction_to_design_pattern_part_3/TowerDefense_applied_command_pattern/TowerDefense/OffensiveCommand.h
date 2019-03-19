@@ -17,7 +17,7 @@ public:
     tower->shootTroll();
   }
 private:
-  std::unique_ptr<IOffensiveTower> & tower;
+  std::unique_ptr<IOffensiveTower> tower;
 
 };
 

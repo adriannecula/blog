@@ -17,7 +17,7 @@ public:
     tower->delayTroll();
   }
 private:
-  std::unique_ptr<IDelayTower> & tower;
+  std::unique_ptr<IDelayTower> tower;
 
 };
 

@@ -17,7 +17,7 @@ public:
     tower->generateMoney();
   }
 private:
-  std::unique_ptr<IMoneyGeneratorTower> & tower;
+  std::unique_ptr<IMoneyGeneratorTower> tower;
 
 };
 
