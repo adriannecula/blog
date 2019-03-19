@@ -8,7 +8,8 @@ public:
   {
     Delay,
     Offensive,
-    MoneyGenerator
+    MoneyGenerator,
+    Witch
   };
 
   virtual Type getType() = 0;

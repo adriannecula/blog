@@ -16,6 +16,9 @@ set(SRC
   MoneyGeneratorTower.h
   OffensiveCommand.h
   OffensiveTower.h
+  IWitchTower.h
+  WitchTower.h
+  WitchCommand.h
   ICommand.h
   IUnit.h
 )
