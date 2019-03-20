@@ -12,11 +12,6 @@ public:
     std::cout << "slowing down" << std::endl;
   }
 
-  virtual Type getType()
-  {
-    return Type::Delay;
-  }
-
   void execute()
   {
     delayTroll();

@@ -4,16 +4,7 @@
 class IUnit 
 {
 public:
-  enum class Type 
-  {
-    Delay,
-    Offensive,
-    MoneyGenerator
-  };
-
-  virtual Type getType() = 0;
   virtual void execute() = 0;
-
 };
 
 #endif

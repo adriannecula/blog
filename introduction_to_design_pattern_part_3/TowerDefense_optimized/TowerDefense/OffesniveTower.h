@@ -11,11 +11,6 @@ public:
   {
     std::cout << "shooting" << std::endl;
   }
- 
-  virtual Type getType()
-  {
-    return Type::Offensive;
-  }
 
   void execute()
   {

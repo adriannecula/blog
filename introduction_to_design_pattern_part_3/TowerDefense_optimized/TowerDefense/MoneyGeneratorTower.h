@@ -13,11 +13,6 @@ public:
   {
     std::cout << "generating money" << std::endl;
   }
-  
-  virtual Type getType()
-  {
-    return Type::MoneyGenerator;
-  }
 
   void execute()
   {
