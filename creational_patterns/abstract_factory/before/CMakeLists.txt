@@ -2,8 +2,9 @@
 # project specific logic here.
 #
 cmake_minimum_required (VERSION 2.8)
+project(GraphicToolkit)
 
-	 SET(SRC FILES "*.cpp" "*.h")
+file(GLOB SRC  *.cpp *.h)
   
 
 # Add source to this project's executable.
